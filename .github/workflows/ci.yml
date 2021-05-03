@@ -13,17 +13,8 @@ jobs:
         node-version: [14.x]
         test:
           [
-            complex-sample,
-            cqrs-sample,
             graphql-sample,
-            microservice-sample,
             mongo-sample,
-            render-sample,
-            rxjs-sample,
-            sequelize-sample,
-            simple-sample,
-            typeorm-sample,
-            websocket-sample,
           ]
     steps:
       - uses: actions/checkout@v2
